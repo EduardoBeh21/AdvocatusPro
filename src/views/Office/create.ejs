@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Novo Escritório</title>
+</head>
+<body>
+    <h1>Criar Novo Escritório</h1>
+    <form action="/admin/escritorios/criar" method="POST" enctype="multipart/form-data">
+        <div>
+            <label for="Nome">Nome:</label>
+            <input type="text" id="Nome" name="Nome" required>
+        </div>
+        <div>
+            <label for="CNPJ">CNPJ:</label>
+            <input type="text" id="CNPJ" name="CNPJ" required>
+        </div>
+        <div>
+            <label for="Logo">Logo:</label>
+            <input type="text" id="Logo" name="Logo">
+        </div>
+        <div>
+            <label for="Dominio">Domínio:</label>
+            <input type="text" id="Dominio" name="Dominio">
+        </div>
+        <div>
+            <label for="Celular">Celular:</label>
+            <input type="tel" id="Celular" name="Celular">
+        </div>
+        <div>
+            <label for="Telefone">Telefone:</label>
+            <input type="tel" id="Telefone" name="Telefone">
+        </div>
+        <div>
+            <label for="Cep">CEP:</label>
+            <input type="text" id="Cep" name="Cep" required>
+        </div>
+        <div>
+            <label for="Cidade">Cidade:</label>
+            <input type="text" id="Cidade" name="Cidade" required>
+        </div>
+        <div>
+            <label for="Estado">Estado:</label>
+            <input type="text" id="Estado" name="Estado" required>
+        </div>
+        <div>
+            <label for="Pais">País:</label>
+            <input type="text" id="Pais" name="Pais" required>
+        </div>
+        <div>
+            <label for="Rua">Rua:</label>
+            <input type="text" id="Rua" name="Rua" required>
+        </div>
+        <div>
+            <label for="Numero">Número:</label>
+            <input type="text" id="Numero" name="Numero" required>
+        </div>
+        <div>
+            <label for="Complemento">Complemento:</label>
+            <input type="text" id="Complemento" name="Complemento">
+        </div>
+        <div>
+            <label for="Tipo_de_residencia">Tipo de Residência:</label>
+            <input type="text" id="Tipo_de_residencia" name="Tipo_de_residencia">
+        </div>
+        <button type="submit">Criar Escritório</button>
+    </form>
+</body>
+</html>
