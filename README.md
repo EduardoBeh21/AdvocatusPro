@@ -116,13 +116,14 @@ AdvocatusPro segue uma arquitetura de microserviços, permitindo escalabilidade 
 ## Configuração
 
 O projeto utiliza variáveis de ambiente para configuração. Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
+```
 PORT=3000
 DB_HOST=localhost
 DB_USER=exemplo_usuario
 DB_PASSWORD=exemplo_senha
 DB_NAME=exemplo_banco
 JWT_SECRET=exemplo_segredo_jwt
-
+```
 ## Uso
 
 [Adicione instruções básicas sobre como usar o sistema]
